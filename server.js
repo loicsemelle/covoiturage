@@ -5,8 +5,8 @@ const db = require('./db');
 const ical = require('node-ical');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
-const APP_PASSWORD = process.env.APP_PASSWORD || 'covoitsecret';
+const PORT = process.env.PORT || 3003;
+const APP_PASSWORD = process.env.APP_PASSWORD || 'stam';
 const ICS_URL = 'https://api.ecoledirecte.com/v3/ical/E/4846/5532787a635456594d464230523264596132567757475534616c4a43526e5269656b465764307033.ics';
 
 app.use(express.json());

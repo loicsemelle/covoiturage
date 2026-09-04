@@ -3,9 +3,9 @@ services:
   covoit-app:
     build: .
     ports:
-      - "3000:3000"
+      - "3003:3000"
     volumes:
       - ./data:/app/data
     environment:
-      - APP_PASSWORD=covoitsecret
+      - APP_PASSWORD=stam
     restart: unless-stopped
