@@ -1,0 +1,13 @@
+/* Custom styles to complement Tailwind */
+.driver-btn {
+    transition: all 0.2s ease;
+}
+.driver-btn.selected {
+    box-shadow: 0 0 0 2px white, 0 0 0 4px currentColor;
+}
+/* Colors for the 4 drivers + None */
+.btn-loic.selected { background-color: #3b82f6; color: white; border-color: #3b82f6; } /* blue-500 */
+.btn-annelise.selected { background-color: #8b5cf6; color: white; border-color: #8b5cf6; } /* violet-500 */
+.btn-sandra.selected { background-color: #10b981; color: white; border-color: #10b981; } /* emerald-500 */
+.btn-jeremy.selected { background-color: #f59e0b; color: white; border-color: #f59e0b; } /* amber-500 */
+.btn-none.selected { background-color: #6b7280; color: white; border-color: #6b7280; } /* gray-500 */

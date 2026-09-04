@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  covoit-app:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - APP_PASSWORD=covoitsecret
+    restart: unless-stopped

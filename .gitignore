@@ -1,0 +1,20 @@
+# Dépendances Node
+node_modules/
+package-lock.json
+
+# Base de données (ne pas commiter les données locales)
+*.sqlite
+*.db
+
+# Fichiers d'environnement (mots de passe, etc.)
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers OS
+.DS_Store
+Thumbs.db

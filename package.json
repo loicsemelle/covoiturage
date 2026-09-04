@@ -1,0 +1,15 @@
+{
+  "name": "covoit-app",
+  "version": "1.0.0",
+  "description": "Application de covoiturage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "node-ical": "^0.27.1",
+    "sqlite3": "^5.1.6"
+  }
+}
