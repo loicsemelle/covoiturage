@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const childrenList = [
         { id: 'chloe', name: 'Chloé' },
-        { id: 'illona', name: 'Illona' }
+        { id: 'ilona', name: 'Ilona' }
     ];
 
     // Calendar settings
@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
         currentEdit = {
             dateStr,
             type,
-            passengers: { ...data.passengers }, // e.g. { "chloe": "loic", "illona": "none" }
+            passengers: { ...data.passengers }, // e.g. { "chloe": "loic", "ilona": "none" }
             time: data.time || defaultTime
         };
 
